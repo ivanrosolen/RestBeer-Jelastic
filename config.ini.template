@@ -1,0 +1,7 @@
+dsn_sqlite = "sqlite:restbeer.db"
+
+db_server = ""
+db_name   = ""
+db_user   = ""
+db_pwd    = ""
+dsn_mysql = "mysql:host=[db_server];dbname=[db_name]"
