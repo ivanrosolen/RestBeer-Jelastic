@@ -39,7 +39,8 @@ namespace :deploy do
   after :updated, :build do
       on roles(:app) do
           within release_path  do
-            execute :composer, "install --no-dev --quiet"
+            execute :cp, "config.ini.template config.ini"
+            execute "php composer.phar install --no-dev --quiet"
             execute :rm, "config/deploy.rb"
             execute :rm, "config/deploy/dev.rb"
           end
