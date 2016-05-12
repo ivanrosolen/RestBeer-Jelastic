@@ -1,6 +1,6 @@
 dsn_sqlite = "sqlite:restbeer.db"
 
-db_server = "http:"//mysql90848-restbeer.jelasticlw.com.br/"
+db_server = "http://mysql90848-restbeer.jelasticlw.com.br/"
 db_name   = "demo"
 db_user   = "root"
 db_pwd    = "OHTiac12601"
