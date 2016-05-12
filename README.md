@@ -37,6 +37,7 @@ Utilizamos composer para carregar os projetos que vamos usar
 #### Refs
 
 * Ver palestra <http://slideshare.net/ivanrosolen/rest-beer-v2>
+
 * Respect Website <http://respect.github.io>
 * Inpirado na palestra <https://github.com/eminetto/restbeer>
 
